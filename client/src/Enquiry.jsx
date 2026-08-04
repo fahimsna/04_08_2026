@@ -5,7 +5,7 @@ export default function Enquiry() {
   return (
     <div>
       <h1 className="text-[40px] text-center pt-6 font-bold">User Enquiry</h1>
-      <div className="grid grid-cols-2-[30%_auto]">
+      <div className="grid grid-cols-[30%_auto]">
         <div className="bg-gray-200 p-4">
           <h2 className="text-[20px] font-bold">Enquiry form</h2>
           <form action="">
