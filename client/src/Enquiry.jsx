@@ -76,6 +76,9 @@ export default function Enquiry() {
                   <TableHeadCell>Phone</TableHeadCell>
                   <TableHeadCell>Message</TableHeadCell>
                   <TableHeadCell>
+                    <span className="sr-only">Delete</span>
+                  </TableHeadCell>
+                  <TableHeadCell>
                     <span className="sr-only">Edit</span>
                   </TableHeadCell>
                 </TableRow>
@@ -83,43 +86,20 @@ export default function Enquiry() {
               <TableBody className="divide-y">
                 <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
                   <TableCell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                    Apple MacBook Pro 17"
+                    1
                   </TableCell>
-                  <TableCell>Sliver</TableCell>
-                  <TableCell>Laptop</TableCell>
-                  <TableCell>$2999</TableCell>
+                  <TableCell>Fahim</TableCell>
+                  <TableCell>fajim@gmail.com</TableCell>
+                  <TableCell>1234567890</TableCell>
+                  <TableCell>I have a question about your product.</TableCell>
                   <TableCell>
                     <a
                       href="#"
                       className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                     >
-                      Edit
+                      Delete
                     </a>
                   </TableCell>
-                </TableRow>
-                <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                  <TableCell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                    Microsoft Surface Pro
-                  </TableCell>
-                  <TableCell>White</TableCell>
-                  <TableCell>Laptop PC</TableCell>
-                  <TableCell>$1999</TableCell>
-                  <TableCell>
-                    <a
-                      href="#"
-                      className="font-medium text-primary-600 hover:underline dark:text-primary-500"
-                    >
-                      Edit
-                    </a>
-                  </TableCell>
-                </TableRow>
-                <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                  <TableCell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                    Magic Mouse 2
-                  </TableCell>
-                  <TableCell>Black</TableCell>
-                  <TableCell>Accessories</TableCell>
-                  <TableCell>$99</TableCell>
                   <TableCell>
                     <a
                       href="#"
