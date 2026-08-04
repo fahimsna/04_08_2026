@@ -11,24 +11,22 @@ export default function Enquiry() {
           <form action="">
             <div className="py-3">
               <Label htmlFor="name">Your Name</Label>
-              <TextInput type="text" placeholder="Enter Your Name" required />
+              <TextInput type="text" name="name" placeholder="Enter Your Name" required />
             </div>
             <div className="py-3">
               <Label htmlFor="email">Your Email</Label>
-              <TextInput type="email" placeholder="Enter Your Email" required />
+              <TextInput type="email" name="email" placeholder="Enter Your Email" required />
             </div>
             <div className="py-3">
               <Label htmlFor="phone">Your Phone</Label>
-              <TextInput type="text" placeholder="Enter Your Phone" required />
+              <TextInput type="text" name="phone" placeholder="Enter Your Phone" required />
             </div>
             <div className="py-3">
               <Label htmlFor="message" value="Your Message" />
-              <Textarea
-                id="comment"
-                placeholder="Leave a comment..."
-                required
-                rows={4}
-              />
+              <Textarea name="message" placeholder="Enter Your Message..." required rows={4} />
+            </div>
+            <div className="py-3">
+              <Button type="submit" className="w-full">Save</Button>
             </div>
           </form>
         </div>
