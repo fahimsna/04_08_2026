@@ -3,11 +3,12 @@ let mongoose = require("mongoose");
 const enquiryRouter = require("./App/routes/web/enquiryRoutes");
 require("dotenv").config();
 let app = express();
+const cors = require("cors");
 
 app.use(express.json());
+app.use(cors());
 //Routes
 app.use("/api/website/enquiry", enquiryRouter);
-
 
 //conect to mongodb
 mongoose

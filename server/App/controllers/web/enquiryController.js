@@ -1,3 +1,5 @@
+const enquiryModel = require("../../models/enquiryModel");
+
 let enquiryInsert = (req, res) => {
   // Implementation for inserting enquiry
   let { name, email, phone, message } = req.body;
