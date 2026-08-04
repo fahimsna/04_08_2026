@@ -19,4 +19,5 @@ let enquirySchema = new mongoose.Schema({
 });
 
 let enquiryModel= mongoose.model("Enquiry", enquirySchema);
+
 module.exports = enquiryModel;
